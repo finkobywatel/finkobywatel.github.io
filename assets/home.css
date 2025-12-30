@@ -14,12 +14,15 @@
 }
 
 .top_image{
-    width: 30px;
+    width: 35px;
+    height: auto;
 }
 
 .right{
     margin-right: 0;
     margin-left: auto;
+    width: 30px;
+    height: auto;
 }
 
 .card_grid{

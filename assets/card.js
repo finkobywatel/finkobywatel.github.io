@@ -48,7 +48,7 @@ function delay(time) {
 setClock();
 function setClock(){
     date = new Date()
-    time.innerHTML = "Czas: " + date.toLocaleTimeString() + " " + date.toLocaleDateString("pl-PL", options);    
+    time.innerHTML = "Czas: " + date.toLocaleTimeString({ hour12: false }) + " " + date.toLocaleDateString("pl-PL", options);    
     delay(1000).then(() => {
         setClock();
     })

@@ -72,7 +72,7 @@ for (var key of params.keys()){
   data[key] = params.get(key);
 }
 
-document.querySelector(".id_own_image").style.backgroundImage = `https://i1.sndcdn.com/artworks-2PLdSMq3UDyLNS8d-NxSdfA-t1080x1080.jpg`;
+document.querySelector(".id_own_image").style.backgroundImage = `url(${data['image']})`;
 
 var birthday = data['birthday'];
 var birthdaySplit = birthday.split(".");

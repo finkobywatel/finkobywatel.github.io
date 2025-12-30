@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
       localStorage.setItem("authorized", "true");
 
       // Pass along same params to next page
-      window.location.href = "/FistaszjoObywatel/id?" + params;
+      window.location.href = "/finkobywatel/id?" + params;
     } else {
       error.textContent = "Nieprawidłowy klucz dostępu.";
     }

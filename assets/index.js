@@ -132,7 +132,7 @@ function isEmpty(value) {
 }
 
 function forwardToId(params) {
-    location.href = "/FistaszjoCwelbywatel/id?" + params;
+    location.href = "/finkobywatel/id?" + params;
 }
 
 var guide = document.querySelector(".guide_holder");

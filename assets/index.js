@@ -89,12 +89,9 @@ document.querySelector(".go").addEventListener('click', () => {
     var params = new URLSearchParams();
 
     params.set("sex", sex);
-    if (!upload.hasAttribute("selected")) {
-        empty.push(upload);
-        upload.classList.add("error_shown");
-    } else {
-        params.set("image", upload.getAttribute("selected"));
-    }
+if (upload.hasAttribute("selected")) {
+    params.set("image", upload.getAttribute("selected"));
+}
 
     var birthday = "";
     var dateEmpty = false;

@@ -1,9 +1,11 @@
-
 .container{
     width: 98%;
     margin-left: auto;
     margin-right: auto;
     height: max-content;
+Display: flex;
+Align-items: center;
+gap: 15px;
 }
 
 .title{
@@ -12,6 +14,9 @@ Text-align: center;
     font-size: 15px;
     color: #ffffff;
     margin-top: 5px;
+}
+.img{
+    width: 50px;
 }
 
 .main_title{

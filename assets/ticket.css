@@ -63,3 +63,27 @@ Text-align: center;
 .img:last-child {
     margin-right: 10px; /* odstęp od prawej krawędzi */
 }
+.marquee-container {
+    position: relative;
+    width: 100%;
+    height: 40px; /* wysokość paska pod top barem */
+    overflow: hidden; /* ukrywa część obrazka poza ekranem */
+    margin-top: 65px; /* wysokość top baru, żeby nie nachodziło */
+    background-color: #1a1a1a; /* opcjonalnie tło dopasowane do top baru */
+}
+
+.marquee-img {
+    position: absolute;
+    height: 100%;  /* dopasowuje wysokość do kontenera */
+    right: -100%;  /* start poza ekranem po prawej */
+    animation: marquee 10s linear infinite; /* czas trwania, linia, powtarzanie */
+}
+
+@keyframes marquee {
+    0% {
+        right: 100%;   /* start poza ekranem po prawej */
+    }
+    100% {
+        right: -100%;    /* kończy poza ekranem po lewej */
+    }
+}

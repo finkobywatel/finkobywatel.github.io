@@ -1,18 +1,22 @@
 .container{
     width: 98%;
-    margin-left: auto;
-    margin-right: auto;
-    height: max-content;
-Display: flex;
-Align-items: center;
-Position: relative;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+Height: 45px;
 }
+
+.img{
+    width: 30px;
+    height: 30px;
+    margin-top: 0px;
+}
+
 .text{
-    position: absolute;   /* wyciągamy z flow */
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
+    flex: 1;              /* zajmuje całą wolną przestrzeń */
+    text-align: center;   /* tekst na środku */
 }
+
 
 .title{
 Text-align: center;
@@ -21,18 +25,17 @@ Text-align: center;
     color: #ffffff;
     margin-top: 0px;
 }
-.img{
-    width: 10px;
-    height: auto;
-    display: block;
-    margin-top: 5px;
-}
+
 
 .main_title{
 Text-align: center;
     font-size: 22px;
     font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 0;
+    margin-top: 0px;
+
     color: #ffffff;
+}
+.main_title, .title {
+    margin: 0;                /* usuwa marginesy domyślne */
+    line-height: 1.2;         /* kontroluje odstęp między wierszami */
 }

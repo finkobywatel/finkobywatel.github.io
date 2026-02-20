@@ -82,6 +82,13 @@ Text-align: left;
     color: #ffffff;
     font-weight: bold;
 }
+.number{
+Text-align: left;
+    font-size: 18px;
+    margin: 0;  
+    color: #ffffff;
+    font-weight: bold;
+}
 .green{
 Text-align: left;
     font-size: 18px;

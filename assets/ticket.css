@@ -4,8 +4,14 @@
     margin-right: auto;
     height: max-content;
 Display: flex;
-
-gap: 20px;
+Align-items: center;
+Position: relative;
+}
+.text{
+    position: absolute;   /* wyciągamy z flow */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
 }
 
 .title{
@@ -26,7 +32,7 @@ Text-align: center;
 Text-align: center;
     font-size: 20px;
     font-weight: bold;
-    margin-top: 0px;
+    margin-top: 20px;
     margin-bottom: 0;
     color: #ffffff;
 }

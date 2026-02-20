@@ -177,6 +177,7 @@ width: calc(100% - 50px);
     border-bottom-right-radius: 5px; /* prawy dolny */
     font-size: 18px;
     font-family: "ticket", sans-serif;
+    font-weight: bold;
     /* Dodatkowo opcjonalnie: efekt hover */
     transition: background 0.3s;
 }

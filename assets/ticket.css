@@ -17,7 +17,7 @@ Height: auto;
     width: 100%;
 Flex-direction: column;
     display: flex;
-Margin-top:10px;
+Margin-top:0px;
 Margin-left:10px;
 Height: auto;
 }
@@ -57,9 +57,17 @@ Text-align: center;
 .main1{
 Text-align: left;
     font-size: 18px;
-    margin-top: 10px;
+    margin-top: 17xpx;
     margin-bottom: 5px;  
     color: #ffffff;
+}
+
+.secondary1{
+Text-align: left;
+    font-size: 18px;
+    margin: 0;  
+    color: #ffffff;
+    font-weight: bold;
 }
 
 .green{

@@ -7,7 +7,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<meta name="apple-mobile-web-app-title" content=“IKO”>
+<meta name="apple-mobile-web-app-title" content="IKO">
 
 <!-- Ikony dla ekranu głównego -->
 <link rel="apple-touch-icon" href="icon.png">
@@ -23,11 +23,11 @@
 
 <script>
 document.getElementById('ticketForm').addEventListener('submit', function(e) {
-    e.preventDefault(); // zapobiega przeładowaniu strony
+    e.preventDefault(); // zapobiega przeładowaniu strony formularza
 
     const ticketNumber = document.getElementById('ticketNumber').value.trim();
     if (ticketNumber) {
-        // przekierowanie na stronę /ticket?id=…
+        // przekierowanie na ticket.html z parametrem id
         window.location.href = `/ticket?id=${encodeURIComponent(ticketNumber)}`;
     } else {
         alert("Wpisz numer biletu!");

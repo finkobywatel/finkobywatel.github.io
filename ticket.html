@@ -49,7 +49,30 @@
         <p class="main1">Numer biletu</p>
         <p class="secondary1">581921733</p>
         <p class="main1">Bilet zakupiony</p>
-        <p class="secondary1">temp</p>
+        <p class="date">temp</p>
+<script>
+    // Funkcja wywołana po załadowaniu strony
+    window.addEventListener('DOMContentLoaded', () => {
+        // Pobieramy aktualny czas
+        const now = new Date();
+
+        // Odejmujemy 6 minut
+        now.setMinutes(now.getMinutes() - 6);
+
+        // Formatujemy datę i godzinę w czytelny sposób, np. "DD.MM.YYYY HH:MM"
+        const day = String(now.getDate()).padStart(2, '0');
+        const month = String(now.getMonth() + 1).padStart(2, '0'); // miesiące liczone od 0
+        const year = now.getFullYear();
+
+        const hours = String(now.getHours()).padStart(2, '0');
+        const minutes = String(now.getMinutes()).padStart(2, '0');
+
+        const formatted = `${day}.${month}.${year}r. ${hours}:${minutes}:47`;
+
+        // Podmieniamy zawartość elementu
+        document.querySelector('.date').textContent = formatted;
+    });
+</script>
     </div>
 </div>
 

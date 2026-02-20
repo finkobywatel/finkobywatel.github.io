@@ -12,6 +12,16 @@ Flex-direction: column;
     align-items: center;
 Height: auto;
 }
+
+.container3{
+    width: 100%;
+Flex-direction: column;
+    display: flex;
+Margin-top:10px;
+Margin-left:10px;
+Height: auto;
+}
+
 .img{
     width: 30px;
     height: 30px;
@@ -39,11 +49,26 @@ Text-align: center;
 .main_title{
 Text-align: center;
     font-size: 22px;
-    font-weight: bold;
     margin-top: 0px;
 
     color: #ffffff;
 }
+
+.main1{
+Text-align: left;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;  
+    color: #ffffff;
+}
+
+.green{
+Text-align: left;
+    font-size: 18px;
+    margin: 0;  
+    color: #5BA746;
+}
+
 .main_title, .title {
     margin: 0;                /* usuwa marginesy domyślne */
     line-height: 1.2;         /* kontroluje odstęp między wierszami */

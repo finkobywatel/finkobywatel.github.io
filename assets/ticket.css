@@ -80,7 +80,7 @@ Text-align: center;
 
 .marquee-img {
     position: absolute;
-    height: 100%;  /* dopasowuje wysokość do kontenera */
+    height:40px;  /* dopasowuje wysokość do kontenera */
     right: -100%;  /* start poza ekranem po prawej */
     animation: marquee 10s linear infinite; /* czas trwania, linia, powtarzanie */
 }
@@ -88,9 +88,10 @@ Text-align: center;
   .responsive-image {
     display: block;           /* usuwa ewentualne przerwy pod obrazem */
     margin: 0 45px 10px 45px;
-    margin-top: 0px;           /* 20px marginesu po lewej i prawej */
+    margin-top: 10px;           /* 20px marginesu po lewej i prawej */
     width: calc(100% - 90px); /* szerokość obrazu dopasowana do marginesów */
-    height: auto;     
+    height: auto;    
+} 
 
 @keyframes marquee {
     0% {

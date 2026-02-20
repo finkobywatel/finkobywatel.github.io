@@ -65,15 +65,15 @@ Text-align: center;
 Text-align: left;
     font-size: 18px;
     margin-top: 17xpx;
-Margin-left:12.5px;
+Margin-left:12x;
     margin-bottom: 5px;  
     color: #ffffff;
 }
 .main2{
 Text-align: left;
     font-size: 18px;
-    margin-top: 14px;
-Margin-left:12.5px;
+    margin-top: 12px;
+Margin-left:12px;
     margin-bottom: 5px;  
     color: #ffffff;
 }
@@ -82,7 +82,7 @@ Margin-left:12.5px;
 Text-align: left;
     font-size: 18px;
     margin-top: 14px;
-Margin-left:12.5px;
+Margin-left:12px;
     margin-bottom: 2px;  
     color: #ffffff;
 }
@@ -91,7 +91,7 @@ Text-align: left;
     font-size: 18px;
     margin: 0;  
     color: #ffffff;
-Margin-left:12.5px;
+Margin-left:12px;
     font-weight: bold;
 }
 .date{
@@ -99,7 +99,7 @@ Text-align: left;
     font-size: 18px;
     margin: 0;  
     color: #ffffff;
-Margin-left:12.5px;
+Margin-left:12px;
     font-weight: bold;
 }
 .number{
@@ -121,7 +121,7 @@ Text-align: left;
     font-size: 18px;
     margin: 0;  
     color: #5BA746;
-Margin-left:12.5px;
+Margin-left:12px;
     font-weight: bold;
 }
 

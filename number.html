@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="pl"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1">&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1">&lt;title&gt;Formularz biletu&lt;/title&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;h2&gt;Wpisz numer biletu&lt;/h2&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;form id="ticketForm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;input type="text" id="ticketNumber" placeholder="Wpisz numer" required&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;button type="submit"&gt;Przejdź do biletu&lt;/button&gt;</p>
+<p class="p1">&lt;/form&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;script&gt;</p>
+<p class="p1">document.getElementById('ticketForm').addEventListener('submit', function(e) {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>e.preventDefault(); // zapobiega przeładowaniu strony</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>const ticketNumber = document.getElementById('ticketNumber').value.trim();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>if (ticketNumber) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>// przekierowanie na stronę /ticket?id=…</p>
+<p class="p1"><span class="Apple-converted-space">        </span>window.location.href = `/ticket?id=${encodeURIComponent(ticketNumber)}`;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>alert("Wpisz numer biletu!");</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1">});</p>
+<p class="p1">&lt;/script&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>

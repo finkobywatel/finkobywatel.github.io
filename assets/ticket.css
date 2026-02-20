@@ -26,6 +26,7 @@ Margin-top:0px;
 Margin-left:10px;
 Margin-bottom:90px;
 Height: auto;
+Align-items: flex-start;
 }
 
 .img{
@@ -89,6 +90,10 @@ Text-align: left;
     margin: 0;  
     color: #ffffff;
     font-weight: bold;
+Align-self: flex-start;
+Border: none;
+Outline: none;
+Box-shadow: none;
 }
 .green{
 Text-align: left;

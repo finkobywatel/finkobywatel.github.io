@@ -65,17 +65,33 @@ Text-align: center;
 Text-align: left;
     font-size: 18px;
     margin-top: 17xpx;
-Margin-left:12px;
+Margin-left:13px;
+    margin-bottom: 5px;  
+    color: #ffffff;
+}
+.main2{
+Text-align: left;
+    font-size: 18px;
+    margin-top: 14px;
+Margin-left:13px;
     margin-bottom: 5px;  
     color: #ffffff;
 }
 
+.main3{
+Text-align: left;
+    font-size: 18px;
+    margin-top: 14px;
+Margin-left:13px;
+    margin-bottom: 2px;  
+    color: #ffffff;
+}
 .secondary1, date{
 Text-align: left;
     font-size: 18px;
     margin: 0;  
     color: #ffffff;
-Margin-left:12px;
+Margin-left:13px;
     font-weight: bold;
 }
 .date{
@@ -83,7 +99,7 @@ Text-align: left;
     font-size: 18px;
     margin: 0;  
     color: #ffffff;
-Margin-left:12px;
+Margin-left:13px;
     font-weight: bold;
 }
 .number{
@@ -105,7 +121,7 @@ Text-align: left;
     font-size: 18px;
     margin: 0;  
     color: #5BA746;
-Margin-left:12px;
+Margin-left:13px;
     font-weight: bold;
 }
 

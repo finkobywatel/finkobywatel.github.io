@@ -5,7 +5,13 @@
     align-items: center;
 Height: 45px;
 }
-
+.container2{
+    width: 100%;
+Flex-direction: column;
+    display: flex;
+    align-items: center;
+Height: auto;
+}
 .img{
     width: 30px;
     height: 30px;
@@ -78,6 +84,13 @@ Text-align: center;
     right: -100%;  /* start poza ekranem po prawej */
     animation: marquee 10s linear infinite; /* czas trwania, linia, powtarzanie */
 }
+
+  .responsive-image {
+    display: block;           /* usuwa ewentualne przerwy pod obrazem */
+    margin: 0 45px 10px 45px;
+    margin-top: 0px;           /* 20px marginesu po lewej i prawej */
+    width: calc(100% - 90px); /* szerokość obrazu dopasowana do marginesów */
+    height: auto;     
 
 @keyframes marquee {
     0% {

@@ -2,37 +2,63 @@
 <html lang="pl">
 <head>
 <meta charset="UTF-8">
-<title>Formularz biletu</title>
+<title>IKO</title>
+
 <!-- Ustawienia dla iOS Web App -->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="apple-mobile-web-app-title" content="IKO">
 
-<!-- Ikony dla ekranu głównego -->
+<!-- Ikona -->
 <link rel="apple-touch-icon" href="icon.png">
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
+
+input {
+    padding: 10px;
+    font-size: 18px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+</style>
 </head>
 <body>
 
 <h2>Wpisz numer biletu</h2>
 
-<form id="ticketForm">
-    <input type="text" id="ticketNumber" placeholder="Wpisz numer" required>
-    <button type="submit">Przejdź do biletu</button>
-</form>
+<input type="text" id="ticketNumber" placeholder="Wpisz numer">
+<br>
+<button class="login">Przejdź do biletu</button>
 
 <script>
-document.getElementById('ticketForm').addEventListener('submit', function(e) {
-    e.preventDefault(); // zapobiega przeładowaniu strony formularza
 
-    const ticketNumber = document.getElementById('ticketNumber').value.trim();
-    if (ticketNumber) {
-        // przekierowanie na ticket.html z parametrem id
-        window.location.href = `/ticket?id=${encodeURIComponent(ticketNumber)}`;
+// kliknięcie przycisku
+document.querySelector(".login").addEventListener("click", () => {
+    const ticketNumber = document.getElementById("ticketNumber").value.trim();
+
+    if(ticketNumber){
+        toTicket(ticketNumber);
     } else {
         alert("Wpisz numer biletu!");
     }
 });
+
+// funkcja przekierowująca – tak jak u Ciebie toHome()
+function toTicket(num){
+    location.href = '/ticket?id=' + encodeURIComponent(num);
+}
+
 </script>
 
 </body>

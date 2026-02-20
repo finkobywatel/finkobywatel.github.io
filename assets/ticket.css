@@ -23,7 +23,7 @@ Height: auto;
 Flex-direction: column;
     display: flex;
 Margin-top:0px;
-Margin-left:10px;
+Margin-left:0px;
 Margin-bottom:90px;
 Height: auto;
 Align-items: flex-start;
@@ -65,6 +65,7 @@ Text-align: center;
 Text-align: left;
     font-size: 18px;
     margin-top: 17xpx;
+Margin-left:12px;
     margin-bottom: 5px;  
     color: #ffffff;
 }
@@ -74,6 +75,7 @@ Text-align: left;
     font-size: 18px;
     margin: 0;  
     color: #ffffff;
+Margin-left:12px;
     font-weight: bold;
 }
 .date{
@@ -81,11 +83,13 @@ Text-align: left;
     font-size: 18px;
     margin: 0;  
     color: #ffffff;
+Margin-left:12px;
     font-weight: bold;
 }
 .number{
 Background-color: #1a1a1a;
 Text-align: left;
+margin-left: 125px;
     font-size: 18px;
     margin: 0;  
     color: #ffffff;
@@ -94,12 +98,14 @@ Align-self: flex-start;
 Border: none;
 Outline: none;
 Box-shadow: none;
+Margin-left: -5px;
 }
 .green{
 Text-align: left;
     font-size: 18px;
     margin: 0;  
     color: #5BA746;
+Margin-left:12px;
     font-weight: bold;
 }
 

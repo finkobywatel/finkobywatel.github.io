@@ -38,7 +38,7 @@
         <p class="main1">Bilet</p>
         <p class="secondary1">Jednorazowy I Normalny</p>
         <p class="main1">Numer boczny pojazdu:</p>
-        <p class="number">temp</p>
+        <input type="text" class="number" value="WPISZ">
         <p class="main1">Cena biletu</p>
         <p class="secondary1">3,80 PLN</p>
         <p class="main1">Numer kontrolny</p>
@@ -70,23 +70,7 @@
         document.querySelector('.date').textContent = formatted;
     });
 </script>
-<script>
-window.addEventListener('DOMContentLoaded', () => {
-    const secondary = document.querySelector('.number');
 
-    // Pobieramy parametr "id" z URL
-    const params = new URLSearchParams(window.location.search);
-    const idParam = params.get('id');
-
-    if (idParam) {
-        // Jeśli parametr istnieje, pokazujemy jego wartość
-        secondary.textContent = idParam;
-    } else {
-        // Jeśli brak parametru, zostawiamy domyślny tekst
-        secondary.textContent = "temp";
-    }
-});
-</script>
     </div>
 </div>
 

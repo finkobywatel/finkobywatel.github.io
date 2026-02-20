@@ -4,8 +4,8 @@
     margin-right: auto;
     height: max-content;
 Display: flex;
-Align-items: center;
-gap: 15px;
+
+gap: 20px;
 }
 
 .title{
@@ -13,17 +13,20 @@ Text-align: center;
     font-weight: 600;
     font-size: 15px;
     color: #ffffff;
-    margin-top: 5px;
+    margin-top: 0px;
 }
 .img{
-    width: 50px;
+    width: 10px;
+    height: auto;
+    display: block;
+    margin-top: 5px;
 }
 
 .main_title{
 Text-align: center;
     font-size: 20px;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 0;
     color: #ffffff;
 }

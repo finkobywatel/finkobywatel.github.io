@@ -82,7 +82,7 @@ Margin-left:12px;
 .main3{
 Text-align: left;
     font-size: 18px;
-    margin-top: 14px;
+    margin-top: 16px;
 Margin-left:12px;
     margin-bottom: 2px;  
     color: #ffffff;
@@ -145,11 +145,11 @@ Margin-left:12px;
 }
 
 .img:first-child {
-    margin-left: 10px;  /* odstęp od lewej krawędzi */
+    margin-left: 15px;  /* odstęp od lewej krawędzi */
 }
 
 .img:last-child {
-    margin-right: 10px; /* odstęp od prawej krawędzi */
+    margin-right: 15px; /* odstęp od prawej krawędzi */
 }
 
 .bottom-bar {

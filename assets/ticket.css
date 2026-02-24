@@ -12,6 +12,7 @@ Height: 40px;
 }
 .container2{
     width: 100%;
+Margin-top:0px;
 Flex-direction: column;
     display: flex;
     align-items: center;
@@ -24,7 +25,7 @@ Flex-direction: column;
     display: flex;
 Margin-top:0px;
 Margin-left:0px;
-Margin-bottom:90px;
+Margin-bottom:120px;
 Height: auto;
 Align-items: flex-start;
 }
@@ -156,7 +157,7 @@ Margin-left:12px;
     Bottom: 0;
     left: 0;
     width: 100%;
-    height: 80px;
+    height: 110px;
     background-color: #1a1a1a;
     display: flex;
     align-items: center;
@@ -166,16 +167,17 @@ Margin-left:12px;
 }
 
 .marquee-container {
-    position: relative;
+    position: fixed;
     width: 100%;
-    height: 40px; /* wysokość paska pod top barem */
+    height: 60px; /* wysokość paska pod top barem */
     overflow: hidden; /* ukrywa część obrazka poza ekranem */
-    margin-top: 65px; /* wysokość top baru, żeby nie nachodziło */
+    margin-top: 40px; /* wysokość top baru, żeby nie nachodziło */
     background-color: #1a1a1a; /* opcjonalnie tło dopasowane do top baru */
 }
 
 .marquee-img {
     position: absolute;
+    margin-top: 10px;
     height:40px;  /* dopasowuje wysokość do kontenera */
     right: -100%;  /* start poza ekranem po prawej */
     animation: marquee 10s linear infinite; /* czas trwania, linia, powtarzanie */
@@ -196,7 +198,8 @@ Margin-left:12px;
     padding:17px 0;
 width: calc(100% - 50px); 
     margin-left: 25px;  /* stały margines od lewej */
-    margin-right: 25px; /*
+    margin-right: 25px; 
+    margin-bottom: 25px; /*
     cursor: pointer;
 
 

@@ -12,7 +12,7 @@ Height: 40px;
 }
 .container2{
     width: 100%;
-Margin-top:0px;
+
 Flex-direction: column;
     display: flex;
     align-items: center;
@@ -185,9 +185,9 @@ Margin-left:12px;
 
   .responsive-image {
     display: block;           /* usuwa ewentualne przerwy pod obrazem */
-    margin: 0 45px 10px 45px;
+    margin: 100px 60px 10px 60px;
     margin-top: 10px;           /* 20px marginesu po lewej i prawej */
-    width: calc(100% - 90px); /* szerokość obrazu dopasowana do marginesów */
+    width: calc(100% - 120px); /* szerokość obrazu dopasowana do marginesów */
     height: auto;    
 } 
 

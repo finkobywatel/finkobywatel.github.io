@@ -8,7 +8,7 @@
 
     display: flex;
     align-items: center;
-Height: 45px;
+Height: 40px;
 }
 .container2{
     width: 100%;
@@ -47,7 +47,7 @@ Align-items: flex-start;
 .title{
 Text-align: center;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 17px;
     color: #ffffff;
     margin-top: 0px;
 }
@@ -135,7 +135,7 @@ Margin-left:12px;
     top: 0;
     left: 0;
     width: 100%;
-    height: 55px;
+    height: 50px;
     background-color: #1a1a1a;
     display: flex;
     align-items: center;
